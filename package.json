@@ -1,0 +1,28 @@
+{
+  "name": "semantic-ui-dummy",
+  "version": "1.0.0",
+  "description": "a semantic-ui based denali theme",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-image": "^2.7.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-less": "^3.3.0",
+    "gulp-util": "^3.0.7",
+    "less-plugin-autoprefix": "^1.5.1",
+    "path": "^0.12.7",
+    "semantic-ui": "^2.2.6"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-sass": "^2.3.2", 
+    "gulp-sourcemaps": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@supzero__",
+  "license": "GPL v3"
+}

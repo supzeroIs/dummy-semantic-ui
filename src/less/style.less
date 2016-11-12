@@ -1,0 +1,123 @@
+@grayBlack			 	: #1b1b1b;
+@primaryColor        	: #1b1b1b;
+@secondaryColor      	: #36b3a8;
+@whiteTrans			 	: rgba(255, 255, 255,.81);
+@borderRadius:       	: 0px;
+@lightPrimaryColor   	: lighten(@primaryColor , 30%);
+@lightSecondaryColor 	: lighten(#000, 30%);
+@white					: rgb(255, 255, 255);
+
+
+// global
+.hidden.menu {
+	display: none;
+}
+.brand {
+	font-weight: bold !important;
+	color:#fff !important;
+}
+
+
+// masthead style
+.masthead  {
+	&.vertical.segment {
+		min-height: 720px;
+		background: 0;
+		background-image: url('../img/hero-photo-1.jpg');
+		background-size: cover;
+		padding-top:0px;
+	}
+	.inverted.segment {
+		background:0;
+		background-color: rgba(27,27,27,0.3);
+		border-radius: 0px;
+		.secondary.pointing {
+			&.menu {
+				border:0;
+			}
+			.item {
+				color:@whiteTrans; 
+				border-color: transparent;
+				position: relative;
+				&:before , &:after {
+					content : ' ';
+				}
+				&.active{
+					border-color:@secondaryColor;
+				}
+				&:hover{
+					position: relative;
+					color:@white;
+				}
+			}
+		}
+	}
+	.text {
+		.header {
+			margin-top: 5em;
+			font-weight: 100;
+		}
+		h2 {
+			margin-top:0px;
+			font-weight: 100;
+			font-size: 2em
+		}
+	}
+}
+
+
+// top menu style
+.top {
+	.container{
+
+	}
+	&.inverted {
+		.ui.menu {
+			.dropdown.item {
+				.menu {
+					border-radius: 0;
+					background-color: @grayBlack;
+					color:#fff;
+					margin-top:0;
+					>.item{ 
+						color:rgba(255,255,255,.7) !important; 
+						&:hover , &:active , &:focus{
+							color:rgba(255,255,255,1) !important;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+// center piece 
+.centered-peice {
+	.icon {
+		display: none;
+	}
+	.column {
+		padding:0px !important;
+		background-color: @secondaryColor;
+		.segment {
+			border:0;
+			box-shadow: none;
+			border-radius: 0;
+			background-color: @secondaryColor;
+			color:@whiteTrans;
+			.header{
+				text-transform: uppercase;
+				font-weight: 600;
+				color:@whiteTrans;
+			}
+		}
+		&:nth-child(2) , &:nth-child(3) { 
+			.segment{
+				background-color: darken(@secondaryColor,5%);
+			}
+		}
+	}
+}

@@ -1,0 +1,84 @@
+.hidden.menu {
+  display: none;
+}
+.brand {
+  font-weight: bold !important;
+  color: #fff !important;
+}
+.masthead.vertical.segment {
+  min-height: 720px;
+  background: 0;
+  background-image: url('../img/hero-photo-1.jpg');
+  background-size: cover;
+  padding-top: 0px;
+}
+.masthead .inverted.segment {
+  background: 0;
+  background-color: rgba(27, 27, 27, 0.3);
+  border-radius: 0px;
+}
+.masthead .inverted.segment .secondary.pointing.menu {
+  border: 0;
+}
+.masthead .inverted.segment .secondary.pointing .item {
+  color: rgba(255, 255, 255, 0.81);
+  border-color: transparent;
+  position: relative;
+}
+.masthead .inverted.segment .secondary.pointing .item:before,
+.masthead .inverted.segment .secondary.pointing .item:after {
+  content: ' ';
+}
+.masthead .inverted.segment .secondary.pointing .item.active {
+  border-color: #36b3a8;
+}
+.masthead .inverted.segment .secondary.pointing .item:hover {
+  position: relative;
+  color: #ffffff;
+}
+.masthead .text .header {
+  margin-top: 5em;
+  font-weight: 100;
+}
+.masthead .text h2 {
+  margin-top: 0px;
+  font-weight: 100;
+  font-size: 2em;
+}
+.top.inverted .ui.menu .dropdown.item .menu {
+  border-radius: 0;
+  background-color: #1b1b1b;
+  color: #fff;
+  margin-top: 0;
+}
+.top.inverted .ui.menu .dropdown.item .menu > .item {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.top.inverted .ui.menu .dropdown.item .menu > .item:hover,
+.top.inverted .ui.menu .dropdown.item .menu > .item:active,
+.top.inverted .ui.menu .dropdown.item .menu > .item:focus {
+  color: #ffffff !important;
+}
+.centered-peice .icon {
+  display: none;
+}
+.centered-peice .column {
+  padding: 0px !important;
+  background-color: #36b3a8;
+}
+.centered-peice .column .segment {
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+  background-color: #36b3a8;
+  color: rgba(255, 255, 255, 0.81);
+}
+.centered-peice .column .segment .header {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.81);
+}
+.centered-peice .column:nth-child(2) .segment,
+.centered-peice .column:nth-child(3) .segment {
+  background-color: #309f96;
+}
