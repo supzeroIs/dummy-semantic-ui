@@ -4,7 +4,7 @@
 ==============
 ![title page](https://cloud.githubusercontent.com/assets/9328808/20239509/093198fa-a90a-11e6-80a1-b465f246534b.png)
 
-
+[LIVE DEMO](http://htmlpreview.github.io/?https://github.com/supzeroIs/dummy-semantic-ui/blob/master/dist/index.html)
 
 Just like ['Denali'](http://demoblvd.com/themes/denali/demo-1/) this theme is based on; 
 
